@@ -6,8 +6,9 @@ Welcome to the comprehensive command and setup documentation for **Meow Bot**.
 
 ## 🛠️ Configuration & Core Management
 
-### 1. Web Dashboard
-* URL: [https://meowbot.xyz](https://meowbot.xyz)
+### 1. Web Dashboard / Docs
+* URL Dashboard: [https://meowbot.xyz](https://meowbot.xyz)
+* URL Docs: [https://meowbot.xyz/docs](https://meowbot.xyz/docs)
 * Connect your Discord account to visually review logs, configure channels, and adjust bot preferences without typing commands.
 
 ### 2. AutoMod & Audit Logging
