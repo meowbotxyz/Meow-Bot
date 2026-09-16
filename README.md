@@ -76,5 +76,5 @@ Granular event tracking with dedicated channels for:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/phongfg384-maker/Meow-Bot.git](https://github.com/phongfg384-maker/Meow-Bot.git)
+   git clone [https://github.com/meowdevxyz/Meow-Bot.git](https://github.com/meowdevxyz/Meow-Bot.git)
    cd Meow-Bot
