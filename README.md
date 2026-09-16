@@ -2,7 +2,7 @@
 
 # 🐾 Meow Bot
 
-**A feature-rich, high-performance Discord Bot built with Discord.js v14 and Node.js**
+**A feature-rich, high-performance Discord Bot built with Discord.js v14, Express & MongoDB**
 
 [![Discord.js](https://img.shields.io/badge/Discord.js-v14.x-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.js.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18.x%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
@@ -15,42 +15,40 @@
 
 <img src="./assets/banner.png" alt="Meow Bot Banner" width="100%" />
 
-
 </div>
 
 ## 📌 Overview
 
-**Meow Bot** is a multi-purpose Discord bot designed to simplify server management while delivering modern utilities and interactive features. From a full-fledged ticket support system and granular event logging to automated voice channels and game script search utilities, Meow Bot provides an all-in-one solution for Discord communities.
+**Meow Bot** is a modern, multipurpose Discord bot designed to empower communities with advanced server automation, security monitoring, and interactive utilities. Featuring a full-fledged ticket support desk, granular AutoMod audit logging, dynamic voice channels, in-chat Roblox script searching, and a centralized web dashboard, Meow Bot provides everything required to manage and engage a Discord server efficiently.
 
 ---
 
 ## ✨ Key Features
 
-### 🎫 Interactive AI & Modular Ticket System
-* **Dual-Engine Support:** Traditional category-based support panels or automated keyword-responsive AI ticket workflows.
-* **Custom Embed Builder:** Craft custom embeds (`/ticket panel custompanel`) with up to 25 interactive buttons.
-* **Staff Controls:** Claim, unclaim, transfer, set priority levels, close with reasons, and export complete ticket transcripts.
-* **Automated Partnering:** Built-in keyword triggers to dispatch partner advertisements and notify management.
+### 🌐 Web Dashboard Integration
+* **Visual Management:** Configure server-specific preferences, manage features, and review activity logs directly on [meowbot.xyz](https://meowbot.xyz).
+* **Live Synchronization:** Seamless data bridge between Discord servers and MongoDB storage.
 
-### 🛡️ Comprehensive AutoMod Event Logging
-Granular event tracking with dedicated channels for:
-* **Message Audit:** Deletions and real-time edit comparisons with uncached partial protection.
-* **Voice Activity:** Join, leave, and channel-switching notifications.
-* **Role & Channel Tracking:** Creation, removal, and permission adjustments.
-* **Guild & Member Updates:** Nickname adjustments, server changes, member joins, and exits.
+### 🛡️ Comprehensive AutoMod & Audit Logging
+* **Message Tracking:** Logs edited and deleted messages with automatic partial caching to prevent missing metadata.
+* **Voice Activity:** Real-time embeds for members joining, leaving, or switching voice channels.
+* **Role & Channel Audits:** Logs newly created, updated, or deleted server roles and text/voice channels.
+* **Member & Guild Changes:** Tracks member joins, leaves/kicks, nickname adjustments, and server name/icon modifications.
+
+### 🎫 Advanced Support & AI Ticket Desk
+* **Dual Ticket Engines:** Standard categorized buttons or automated keyword-responsive AI ticket workflows.
+* **Custom Ticket Panels:** Build customized panels (`/ticket panel custompanel`) with up to 25 interactive buttons.
+* **Staff Controls:** Claim, unclaim, priority tags, transfer tickets, close with reasons, and generate transcripts.
+* **Partnership Automation:** Auto-detects partnership requests and triggers dedicated advertising sequences.
 
 ### 🔊 VoiceMaster (Join to Create)
-* Dynamic voice channel management.
-* Automatically creates temporary voice channels when members join a designated hub.
-* Removes idle rooms once empty to maintain clean server categories.
+* Automated voice room creation when members enter a designated hub.
+* Auto-deletes empty temporary channels to keep server lists clean.
 
-### 📜 Roblox ScriptBlox Search Engine
-* Search Roblox scripts directly through the ScriptBlox API.
-* Multi-page embedded interface with script metadata (views, verified status, key requirements, patched state).
-* Built-in Discord modal for quick one-click script copying.
-
-### 🌐 Web Dashboard Integration
-* Manage server settings, review active configurations, and adjust bot preferences visually via [meowbot.xyz](https://meowbot.xyz).
+### 📜 ScriptBlox Search Engine
+* Query Roblox scripts straight from the ScriptBlox directory with pagination.
+* Displays script metadata including view counts, verified status, key requirements, and patch alerts.
+* Interactive **Copy Script** modal for quick execution.
 
 ---
 
@@ -61,21 +59,19 @@ Granular event tracking with dedicated channels for:
 | **Runtime** | Node.js (v18+) |
 | **Framework** | Discord.js v14 |
 | **Database** | MongoDB with Mongoose ODM |
-| **Web Server** | Express.js |
-| **Components** | Discord Components V2 / EmbedBuilder / Modals |
+| **Web Server** | Express.js (Dashboard & Webhooks) |
+| **UI Components** | Discord Components V2 / EmbedBuilder / ActionRows / Modals |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Installation & Setup
 
-### Prerequisites
+### 1. Prerequisites
 * Node.js v18.0.0 or higher
-* MongoDB Database (Atlas or self-hosted)
-* Discord Bot Token & Application Client ID from the [Discord Developer Portal](https://discord.com/developers/applications)
+* MongoDB connection URI (MongoDB Atlas or self-hosted)
+* Discord Application Token & Client ID from the [Discord Developer Portal](https://discord.com/developers/applications)
 
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/meowdevxyz/Meow-Bot.git](https://github.com/meowdevxyz/Meow-Bot.git)
-   cd Meow-Bot
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/phongfg384-maker/Meow-Bot.git](https://github.com/phongfg384-maker/Meow-Bot.git)
+cd Meow-Bot
