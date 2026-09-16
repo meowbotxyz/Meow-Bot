@@ -13,7 +13,8 @@
 
 ---
 
-<img src="https://cdn.discordapp.com/attachments/1420746061957566495/1536220603726430218/Khong_Co_Tieu_e100_20260625202527.png" alt="Meow Bot Banner" width="100%" />
+<img src="./assets/banner.png" alt="Meow Bot Banner" width="100%" />
+
 
 </div>
 
