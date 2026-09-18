@@ -33,21 +33,11 @@ This repository serves as the single source of truth for all visual identifiers 
 ## 🗂️ Directory Structure
 
 ```text
-Meow-Emojis/
-├── static/                  # Static PNG & SVG icons (32x32, 64x64, 128x128)
-│   ├── badges/              # Developer, supporter, and system badges
-│   ├── automod/             # Channel, role, and moderation icons
-│   └── ui/                  # Success, error, warning, info indicators
-├── animated/                # Animated GIF emojis (APNG / GIF)
-│   ├── loading/             # Buffer spinners and processing loops
-│   └── reactions/           # Interactive feedback reactions
-├── mappings/                # Emoji ID lookup tables for application code
-│   ├── emojis.json          # Raw Discord Emoji format strings
-│   ├── emojis.js            # CommonJS module export
-│   └── emojis.ts            # TypeScript typed emoji map
-├── scripts/                 # Automation & deployment tools
-│   └── uploader.js          # Auto-upload emojis to application guilds via REST API
-└── README.md                # Asset documentation
+Meow-Bot/
+├── Emoji
+
+├── assets
+
 
 ```
 ## 📋 Core Emoji Manifest & Identifiers
