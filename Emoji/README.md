@@ -41,7 +41,9 @@ Meow-Bot/
 │  └── banner.png
 ├── DOCS.md
 ├── LICENSE
-
+├── PRIVACY_POLICY.md
+├── README.md
+└── 
 
 ```
 ## 📋 Core Emoji Manifest & Identifiers
