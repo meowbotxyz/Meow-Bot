@@ -44,7 +44,6 @@ Meow-Bot/
 ├── PRIVACY_POLICY.md
 ├── README.md
 └── TERMS_OF_SERVICE.md
-
 ```
 ## 📋 Core Emoji Manifest & Identifiers
 | Category | Identifier | Type | Preview | Raw Discord Format |
