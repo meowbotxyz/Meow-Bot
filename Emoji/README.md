@@ -43,7 +43,7 @@ Meow-Bot/
 ├── LICENSE
 ├── PRIVACY_POLICY.md
 ├── README.md
-└── 
+└── TERMS_OF_SERVICE.md
 
 ```
 ## 📋 Core Emoji Manifest & Identifiers
