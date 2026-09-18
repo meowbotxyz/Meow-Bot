@@ -35,11 +35,12 @@ This repository serves as the single source of truth for all visual identifiers 
 ```text
 Meow-Bot/
 ├── Emoji
-   ├── Meow Bot Emoji.zip
-   └── README.md
+│  ├── Meow Bot Emoji.zip
+│  └── README.md
 ├── assets
-   └── banner.png
-
+│  └── banner.png
+├── DOCS.md
+├── LICENSE
 
 
 ```
